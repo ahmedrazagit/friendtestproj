@@ -8,7 +8,7 @@ This project demonstrates the implementation of a fuzzy logic-based control syst
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Features
 - Fuzzy logic model for velocity control based on distance to obstacles.
