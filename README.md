@@ -15,7 +15,7 @@ This project demonstrates the implementation of a fuzzy logic-based control syst
 - Parallel parking and exiting functionality.
 - Perpendicular parking capability.
 - Visualization of distance and velocity data.
-- Configurable membership functions and rules for fine-tuned control.
+
 
 ## Demonstrations
 
