@@ -43,6 +43,7 @@ This project demonstrates the implementation of a fuzzy logic-based control syst
 
 4. **Open the CoppeliaSim Scene**
    - Navigate to the project folder and double-click on `map.tt` to open it in CoppeliaSim.
+   - Then click the start button from the menu bar.
 
 ## Usage
 
