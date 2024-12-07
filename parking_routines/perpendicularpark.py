@@ -33,7 +33,7 @@ class ForwardToFindLeftSpace(Stage):
 
     def control(self, tank, distances):
         velocity = self._model.get_velocity(distances.nw)
-        tank.backward(velocity)
+        tank.forward(velocity)
         return velocity == 0
 
 

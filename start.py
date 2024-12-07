@@ -1,5 +1,5 @@
 from vehicle_mechanics.control import run_with_controller
-from parking_routines import ParallelParkController, PerpendicularParkController, LeaveParkController
+from parking_routines.intials import ParallelParkController, PerpendicularParkController, LeaveParkController
 
 def sequential_parking_routine():
     """
@@ -23,7 +23,7 @@ def sequential_parking_routine():
             print("Executing Perpendicular Parking routine...")
             run_with_controller(PerpendicularParkController)
         else:
-            print("Invalid choice. Please select a number between 1 and 3.")
+            print("Invalid choice. Please select a either 1 or 2.")
     except ValueError:
         print("Invalid input. Please enter a number.")
 
